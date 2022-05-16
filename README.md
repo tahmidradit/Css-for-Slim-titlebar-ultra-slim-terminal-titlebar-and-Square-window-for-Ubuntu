@@ -10,11 +10,9 @@
 5. Right click and select Mark for installation from the search result
 6. open dconf-editor and click "I'll be careful" and search for:
     > Terminal
-7. Now follow by double clicking:
-    > legacy/headerbar and make it false
-8. Now Turn off:
+7. Now follow by double clicking and make it false:
+    > legacy/headerbar 
+8. Now Turn off but when you need to customize your default terminal just turn on again and turn off when done:
     > default-show-menubar
-   when you need to customize your default terminal just turn on again and turn off when done:
-   > default-show-menubar
 9. Done !
     
