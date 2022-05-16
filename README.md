@@ -1,18 +1,19 @@
 # Css-for-Ubuntu-Titlebar-Shrink_total-slim-titlebar instructions for ultra slim terminal titlebar and square window:
 
-1. Download Ubuntu total slim titlebar.css file and rename it gtk.css
-2. Paste the file in Ubuntu directory:
+1. Download Ubuntu total slim titlebar.css file and rename:
+     > gtk.css
+3. Paste the file in Ubuntu directory:
      > /home/tahmid/.config/gtk-3.0
-3. Install from Ubuntu Software
+4. Install from Ubuntu Software
      > Synaptic Package Manager  
-4. Search for: 
+5. Search for: 
      > dconf-editor
-5. Right click and select Mark for installation from the search result
-6. open dconf-editor and click "I'll be careful" and search for:
+6. Right click and select "Mark for installation" from the search result
+7. open dconf-editor and click "I'll be careful" and search for:
     > Terminal
-7. Now follow by double clicking and make it false:
+8. Now follow by double clicking and make it false:
     > legacy/headerbar 
-8. Now Turn off but when you need to customize your default terminal just turn on again and turn off when done:
+9. Now Turn off but when you need to customize your default terminal just turn on again and turn off when done:
     > default-show-menubar
-9. Done !
+10. Done !
     
